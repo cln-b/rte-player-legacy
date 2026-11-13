@@ -1,0 +1,56 @@
+/* The closed rail uses an icon. Keep the label and icon together when it opens. */
+.style_menu-component__29RQI .style_quick-actions-container__3GfRD .style_settings-item__V3GD4 {
+    display: -webkit-flex;
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.style_menu-component__29RQI.style_--is-collapsed__3DWqg .style_settings-item__V3GD4 > span[aria-hidden="true"] {
+    display: none;
+}
+
+/* The virtual scroller measures its children after each focus change. Give it
+   the width of the guide before it measures its own horizontally clipped row. */
+.style_page__lkoMN .focusable-virtual-scroller-vertical_content-wrapper__1qp8v,
+.style_page__lkoMN .focusable-virtual-scroller-vertical_scrolling-wrapper__3Gd1E {
+    width: 100%;
+    min-width: 0;
+}
+.style_page__lkoMN .focusable-virtual-scroller-horizontal_content-wrapper__kg9uA {
+    width: 100% !important;
+}
+/* Give each link its own box for its channel logo and absolute focus ring. */
+.style_page__lkoMN .focusable-virtual-scroller-horizontal_scrolling-wrapper__g8IkJ {
+    display: -webkit-flex;
+    display: flex;
+}
+.style_page__lkoMN .focusable-strip-item_image-logo-text-item__i4JVn {
+    display: block;
+    -webkit-flex: none;
+    flex: none;
+}
+
+/* In WebKit's box layout the seek track's 100% width leaves no room for
+   either time label. Allocate the remaining row width to the track. */
+.progress-bar_progress-bar-component__jTDK1.progress-bar_--player__FNkQn > .progress-bar_bar__2KP2z {
+    width: 0;
+    min-width: 0;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0px;
+    flex: 1 1 0px;
+    overflow: hidden;
+}
+.progress-bar_progress-bar-component__jTDK1.progress-bar_--player__FNkQn > .progress-bar_label__2YClT {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    flex: none;
+    white-space: nowrap;
+}
+
+/* An inline link can split around its block-level artwork in legacy WebKit.
+   Give the focus outline and the virtual scroller the same card bounds. */
+a.focusable-strip-item_focusable-strip-item__1Pv9E {
+    display: block;
+    -webkit-flex: none;
+    flex: none;
+}

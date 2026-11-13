@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="https://example.invalid/rte-player/vestel" version="1.0.0" viewmodes="maximized">
+    <name>RTÉ Player</name>
+    <icon src="rte-banner.png"/>
+    <content src="index.html"/>
+    <tizen:application id="RteOldVst1.Player" package="RteOldVst1" required_version="2.4"/>
+    <tizen:profile name="tv-samsung"/>
+    <access origin="*" subdomains="true"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:privilege name="http://tizen.org/privilege/tv.inputdevice"/>
+    <tizen:setting screen-orientation="landscape" context-menu="disable" hwkey-event="enable"/>
+</widget>

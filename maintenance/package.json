@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@babel/cli": "^8.1.0",
+    "@babel/core": "^8.1.0",
+    "@babel/preset-env": "^8.0.7",
+    "acorn": "^8.19.0",
+    "autoprefixer": "^10.6.2",
+    "core-js": "^3.51.0",
+    "core-js-bundle": "^3.51.0",
+    "fast-text-encoding": "1.0.6",
+    "moment-timezone": "0.6.6",
+    "postcss": "^8.5.32",
+    "whatwg-fetch": "^3.6.20",
+    "regexpu-core": "6.5.3"
+  },
+  "name": "rte-player-legacy",
+  "private": true,
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node tests/login-worker.mjs"
+  }
+}
